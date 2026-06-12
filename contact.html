@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Dark Tech IP Platform</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo neon-text">IP-Brokerage</div>
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="problem.html">For Customers</a>
+        <a href="use-cases.html">For Providers</a>
+        <a href="how-it-works.html">Matching Process</a>
+        <a href="service.html">Trust & Safety</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html" class="active btn-outline neon-border">베타 신청하기</a>
+      </nav>
+      <button class="hamburger">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container text-center">
+        <h1 class="hero-title">지금, 당신의 아이디어가<br><span class="neon-text">시장에 출시될 시간</span>입니다.</h1>
+        <p class="hero-sub">단 간단한 키워드 입력만으로도 가능합니다. 보안 서약서(NDA)가 적용된 안전한 폼을 통해 지금 신청하세요.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-2 contact-layout">
+          <div class="contact-info">
+            <div class="urgency-box neon-border">
+              <h3 class="neon-text">🚨 베타 테스터 모집 마감 임박</h3>
+              <p class="mt-2">초기 선발 우대 혜택을 놓치지 마세요.</p>
+            </div>
+            <div class="security-badge mt-4 text-center">
+              <div class="lock-icon-large">🔒</div>
+              <p class="mt-2 text-sm">아이디어 비학습 및 군사 등급 암호화 처리</p>
+              <p class="text-sm">귀하의 정보는 철저히 보호됩니다.</p>
+            </div>
+          </div>
+          <div class="contact-form-container card">
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('베타 신청이 접수되었습니다.');">
+              <div class="form-group">
+                <label>신청 유형</label>
+                <select required>
+                  <option value="">선택해주세요</option>
+                  <option value="founder">예비 창업자</option>
+                  <option value="startup">스타트업</option>
+                  <option value="patent_attorney">변리사</option>
+                  <option value="investor">투자사·바이어</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>이름 / 기업명</label>
+                <input type="text" required placeholder="이름 또는 기업명을 입력하세요">
+              </div>
+              <div class="form-group">
+                <label>연락처</label>
+                <input type="tel" required placeholder="010-0000-0000">
+              </div>
+              <div class="form-group">
+                <label>이메일</label>
+                <input type="email" required placeholder="example@domain.com">
+              </div>
+              <div class="form-group">
+                <label>아이디어 요약 (한 줄 설명)</label>
+                <textarea rows="3" placeholder="아이디어의 핵심 기능을 간단히 적어주세요. (첨부파일은 추후 개별 안내)"></textarea>
+              </div>
+              <div class="form-group checkbox-group">
+                <input type="checkbox" id="privacy" required>
+                <label for="privacy" class="text-sm">[필수] 개인정보 수집 및 아이디어 보안 서약(NDA) 동의</label>
+              </div>
+              <button type="submit" class="btn-neon w-full mt-4">초기 베타 테스터 지원하기 (무료)</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container text-center">
+      <p>본 플랫폼은 변리사법을 철저히 준수합니다. 저희는 불법 대리 행위를 하지 않으며, 오직 등록 변리사 네트워크와의 안전한 업무 연결 및 사업화 촉진만을 돕습니다.</p>
+      <p class="mt-2">© Dark Tech IP Platform. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
